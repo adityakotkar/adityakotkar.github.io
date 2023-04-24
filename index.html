@@ -29,7 +29,7 @@
               <label for="name"><b>Name : </b></label>
             </td>
             <td>
-              <input type="text" name="Name" id="name" size="40" autofocus>
+              <input type="text" name="Name" id="name" size="40" autofocus required>
             </td>
           </tr>
           <tr>
@@ -54,7 +54,7 @@
             </td>
             <td>
               <input type="email" name="E-mail ID" id="email" placeholder="xyz@mail.com" size = "40" pattern=".+@mail\.com"
-                maxlength="50" multiple><br>
+                maxlength="50" multiple required><br>
               <small>Format : abc@mail.com</small>
             </td>
           </tr>
@@ -63,7 +63,7 @@
               <label for="billAddr"><b>Billing Address : </b></label>
             </td>
             <td>
-              <textarea name="Billing Address" id="billAddr" cols="50" rows="5"></textarea>
+              <textarea name="Billing Address" id="billAddr" cols="50" rows="5" required></textarea>
             </td>
           </tr>
           <tr>
@@ -105,7 +105,7 @@
               </select>
               <br><br>
               <label for="other">If other, specify : </label>
-              <input type="text" name="Other Category" id="other" size="30px">
+              <input type="text" name="Other Category" id="other" size="30px" required>
             </td>
           </tr>
           <tr>
@@ -161,7 +161,7 @@
               <label for="noOfSeats"><b>Count of selected booking type : </b></label>
             </td>
             <td>
-              <input type="number" name="Number Of seats" id="noOfSeats" min="1" max="90">
+              <input type="number" name="Number Of seats" id="noOfSeats" min="1" max="90" required>
               <br><br>
               <small>
                 <i>
@@ -176,7 +176,7 @@
               <label for="bookingDeposit"><b>Deposit installment : </b></label>
             </td>
             <td>
-              <input type="number" name="Initial Installment" id="bookingDeposit" step="500" min="5000" max="30000">
+              <input type="number" name="Initial Installment" id="bookingDeposit" step="500" min="5000" max="30000" required>
             </td>
           </tr>
           <tr>
@@ -184,7 +184,7 @@
               <label for="date"><b>Date/Time for dining : </b></label>
             </td>
             <td>
-              <input type="datetime-local" name="Date" id="date">
+              <input type="datetime-local" name="Date" id="date" required>
             </td>
           </tr>
           <tr>

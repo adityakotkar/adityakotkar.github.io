@@ -1,0 +1,135 @@
+body {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    backface-visibility: visible;
+    background-color: wheat;
+    font-family: 'Times New Roman', Times, serif;
+    color: thistle;
+    backdrop-filter: blur(1px);
+    background-blend-mode: multiply;
+    padding: 60px;
+    margin: 0px;
+    width: fit-content;
+}
+
+.titleicon {
+    width: 22x;
+    height: 22px;
+}
+
+.header {
+    margin: 80px 300px 80px 300px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    mix-blend-mode: multiply;
+    padding: 60px;
+    display: inline-block;
+    width: max-content;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.form-table {
+    margin: 80px 250px 80px 250px;
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    mix-blend-mode: multiply;
+    padding: 60px;
+    display: inline-block;
+    width: fit-content;
+    font-weight: normal;
+}
+
+.footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    mix-blend-mode: multiply;
+    margin: 80px 470px 80px 470px;
+    padding-left: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 60px;
+    display: inline-block;
+    width: max-content;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.footer1 {
+    text-decoration: underline;
+}
+
+.footer2 {
+    text-decoration: underline;
+}
+
+.btnsubmit {
+    background-color: slategray;
+    border-radius: 25px;
+    height: 45px;
+    width: 110px;
+    opacity: 0.8;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
+    border: 2px solid;
+    transition-duration: 0.4s;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 2px dimgray;
+    border: none;
+    overflow: hidden;
+}
+
+.btnsubmit:hover {
+    transform: scale(1.0);
+    opacity: 1.0;
+    background-color: darkslategray;
+}
+
+.btnsubmit:active {
+    background-color: gray;
+    box-shadow: 0 1px ;
+    transform: translateY(0.5px);
+  }
+
+.btnreset {
+    background-color: slategray;
+    border-radius: 25px;
+    height: 45px;
+    width: 110px;
+    opacity: 0.8;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
+    border: 2px solid;
+    transition-duration: 0.4s;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: none;
+    box-shadow: 0 2px dimgray;
+}
+
+.btnreset:hover {
+    transform: scale(1.0);
+    background-color: darkslategray;
+    opacity: 1.0;
+}
+
+.btnreset:active {
+  background-color: gray;
+  box-shadow: 0 1px ;
+  transform: translateY(0.5px);
+}
+
+.copyright {
+    color: white;
+    font-weight: bold;
+    margin-top: 37px;
+    font-size: 0.80em;
+}

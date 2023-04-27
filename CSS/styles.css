@@ -76,7 +76,6 @@ body {
     cursor: pointer;
     padding: 10px;
     font-weight: bold;
-    border: 2px solid;
     transition-duration: 0.4s;
     position: relative;
     text-align: center;
@@ -106,7 +105,6 @@ body {
     cursor: pointer;
     padding: 10px;
     font-weight: bold;
-    border: 2px solid;
     transition-duration: 0.4s;
     position: relative;
     overflow: hidden;

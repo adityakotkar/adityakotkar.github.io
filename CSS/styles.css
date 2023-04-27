@@ -26,7 +26,6 @@ body {
     mix-blend-mode: multiply;
     padding: 60px;
     display: inline-block;
-    width: max-content;
     font-style: italic;
     font-weight: lighter;
 }
@@ -40,7 +39,6 @@ body {
     mix-blend-mode: multiply;
     padding: 60px;
     display: inline-block;
-    width: fit-content;
     font-weight: normal;
 }
 
@@ -54,7 +52,6 @@ body {
     padding-bottom: 60px;
     padding-right: 60px;
     display: inline-block;
-    width: max-content;
     font-style: italic;
     font-weight: lighter;
 }

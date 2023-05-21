@@ -28,6 +28,8 @@ body {
     display: inline-block;
     font-style: italic;
     font-weight: lighter;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
 }
 
 .form-table {
@@ -40,6 +42,8 @@ body {
     padding: 60px;
     display: inline-block;
     font-weight: normal;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
 }
 
 .footer {
@@ -54,6 +58,8 @@ body {
     display: inline-block;
     font-style: italic;
     font-weight: lighter;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
 }
 
 .footer1 {
